@@ -2,7 +2,7 @@ library(shiny)
 library(shinyjs)
 
 # Load the data
-df <- read.csv("Sample.csv")
+df <- read.csv("data/Sample.csv")
 
 ui <- fluidPage(
   useShinyjs(),  # Include shinyjs for showing/hiding messages
