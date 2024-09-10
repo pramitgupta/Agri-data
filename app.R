@@ -1,3 +1,6 @@
+if(!require("shiny")) {install.packages("shiny")}
+if(!require("shinyjs")) {install.packages("shinyjs")}
+
 library(shiny)
 library(shinyjs)
 
